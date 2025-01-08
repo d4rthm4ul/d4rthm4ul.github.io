@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const tableauExtensionButton = document.getElementById("exportDataButton");
+    const tableauExtensionButton = document.getElementById("exportButton");
 
     tableauExtensionButton.addEventListener("click", async () => {
         try {
