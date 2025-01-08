@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("Fetched parameters:", parameters);
 
             let startDate = null;
-            let endDate = nul
+            let endDate = null
 
             for (let param of parameters) {
                 console.log(`Parameter Name: ${param.name}, Value: ${param.currentValue.value}`);
