@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Simple Tableau Extension</title>
-  <!-- Tableau Extensions API -->
-  <script src="https://unpkg.com/@tableau/extensions-api"></script>
-  <!-- Your custom script -->
-  <script src="script.js"></script>
+
+  <!-- Tableau Extensions API (with defer) -->
+  <script 
+      src="https://unpkg.com/@tableau/extensions-api" 
+      defer>
+  </script>
 </head>
 <body>
+  <h1>Simple Tableau Extension</h1>
   <button id="exportButton">Export Data</button>
+
+  <!-- Your custom script (moved to bottom for clarity) -->
+  <script src="script.js"></script>
 </body>
 </html>
